@@ -1,0 +1,57 @@
+[
+{"section":"ISDM","difficulty":"Easy","question":"What is a database?","choices":["A collection of organized data","A financial statement","A backup file","A tax return"],"correctAnswer":0,"explanation":"A database stores structured data."},
+{"section":"ISDM","difficulty":"Easy","question":"What is data?","choices":["Raw facts","Processed info","Reports","Statements"],"correctAnswer":0,"explanation":"Data are raw facts."},
+{"section":"ISDM","difficulty":"Easy","question":"What is information?","choices":["Processed data","Raw data","Backup data","Encrypted data"],"correctAnswer":0,"explanation":"Information is processed data."},
+{"section":"ISDM","difficulty":"Easy","question":"What is a primary key?","choices":["Unique identifier","Password","Backup key","Encryption key"],"correctAnswer":0,"explanation":"Primary keys uniquely identify records."},
+{"section":"ISDM","difficulty":"Easy","question":"What is a foreign key?","choices":["Link to another table","Password","Backup key","Index"],"correctAnswer":0,"explanation":"Foreign keys link tables."},
+
+{"section":"ISDM","difficulty":"Medium","question":"What does ERP stand for?","choices":["Enterprise Resource Planning","Electronic Record Process","External Reporting Program","Enterprise Risk Policy"],"correctAnswer":0,"explanation":"ERP integrates processes."},
+{"section":"ISDM","difficulty":"Medium","question":"What is data processing?","choices":["Transforming data","Deleting data","Encrypting","Backing up"],"correctAnswer":0,"explanation":"Processing converts data into info."},
+{"section":"ISDM","difficulty":"Medium","question":"What is a data warehouse?","choices":["Central data storage","Firewall","Backup system","Cloud storage only"],"correctAnswer":0,"explanation":"Warehouse stores data centrally."},
+{"section":"ISDM","difficulty":"Medium","question":"What is ETL?","choices":["Extract Transform Load","Edit Transfer Link","Encrypt Transfer Lock","Execute Test Loop"],"correctAnswer":0,"explanation":"ETL moves data."},
+{"section":"ISDM","difficulty":"Medium","question":"What is metadata?","choices":["Data about data","Backup data","Encrypted data","Old data"],"correctAnswer":0,"explanation":"Metadata describes data."},
+
+{"section":"ISDM","difficulty":"Hard","question":"What is normalization?","choices":["Reduce redundancy","Encrypt data","Delete duplicates","Backup data"],"correctAnswer":0,"explanation":"Normalization reduces redundancy."},
+{"section":"ISDM","difficulty":"Hard","question":"What is referential integrity?","choices":["Valid table relationships","Encryption","Backup consistency","Data deletion"],"correctAnswer":0,"explanation":"Ensures relationships remain valid."},
+{"section":"ISDM","difficulty":"Hard","question":"What is indexing?","choices":["Speeding queries","Encrypting data","Backing up data","Deleting data"],"correctAnswer":0,"explanation":"Indexes improve query speed."},
+{"section":"ISDM","difficulty":"Hard","question":"What is structured data?","choices":["Organized data","Random data","Encrypted data","Backup data"],"correctAnswer":0,"explanation":"Structured data is organized."},
+{"section":"ISDM","difficulty":"Hard","question":"What is unstructured data?","choices":["Non-organized data","Organized data","Encrypted data","Deleted data"],"correctAnswer":0,"explanation":"Unstructured data lacks format."},
+
+{"section":"ISDM","difficulty":"Easy","question":"What is a spreadsheet?","choices":["Grid of data","Database","Firewall","Backup"],"correctAnswer":0,"explanation":"Spreadsheets store data in rows/columns."},
+{"section":"ISDM","difficulty":"Easy","question":"What is a report?","choices":["Formatted output","Raw data","Backup","Firewall"],"correctAnswer":0,"explanation":"Reports present data."},
+{"section":"ISDM","difficulty":"Medium","question":"What is batch processing?","choices":["Processing in groups","Real-time processing","Encryption","Backup"],"correctAnswer":0,"explanation":"Batch processes data in groups."},
+{"section":"ISDM","difficulty":"Medium","question":"What is real-time processing?","choices":["Instant processing","Batch","Backup","Encryption"],"correctAnswer":0,"explanation":"Real-time happens immediately."},
+{"section":"ISDM","difficulty":"Hard","question":"What is data governance?","choices":["Managing data policies","Encryption","Backup","Deletion"],"correctAnswer":0,"explanation":"Governance controls data use."},
+
+/* ===== SECURITY (40) ===== */
+
+{"section":"SEC","difficulty":"Easy","question":"What is phishing?","choices":["Trick users","Encrypt data","Delete files","Backup"],"correctAnswer":0,"explanation":"Phishing tricks users."},
+{"section":"SEC","difficulty":"Easy","question":"What is a firewall?","choices":["Network security","Database","Backup","Report"],"correctAnswer":0,"explanation":"Firewalls protect networks."},
+{"section":"SEC","difficulty":"Easy","question":"What is malware?","choices":["Malicious software","Backup","Encryption","Firewall"],"correctAnswer":0,"explanation":"Malware harms systems."},
+{"section":"SEC","difficulty":"Easy","question":"What is antivirus?","choices":["Detect malware","Backup","Encrypt","Delete"],"correctAnswer":0,"explanation":"Antivirus detects threats."},
+{"section":"SEC","difficulty":"Easy","question":"What is a password?","choices":["Authentication tool","Backup","Encryption","Firewall"],"correctAnswer":0,"explanation":"Passwords authenticate users."},
+
+{"section":"SEC","difficulty":"Medium","question":"What is encryption?","choices":["Encode data","Delete","Backup","Analyze"],"correctAnswer":0,"explanation":"Encryption protects data."},
+{"section":"SEC","difficulty":"Medium","question":"What is MFA?","choices":["Multiple auth","Password only","Firewall","Backup"],"correctAnswer":0,"explanation":"MFA adds security."},
+{"section":"SEC","difficulty":"Medium","question":"What is a VPN?","choices":["Secure connection","Database","Firewall","Backup"],"correctAnswer":0,"explanation":"VPN secures connections."},
+{"section":"SEC","difficulty":"Medium","question":"What is access control?","choices":["Limit access","Backup","Encrypt","Delete"],"correctAnswer":0,"explanation":"Controls access."},
+{"section":"SEC","difficulty":"Medium","question":"What is hashing?","choices":["Irreversible encoding","Encryption","Backup","Delete"],"correctAnswer":0,"explanation":"Hashing secures data."},
+
+{"section":"SEC","difficulty":"Hard","question":"What is DoS?","choices":["Overload system","Encrypt","Delete","Backup"],"correctAnswer":0,"explanation":"DoS disrupts service."},
+{"section":"SEC","difficulty":"Hard","question":"What is ransomware?","choices":["Encrypt for payment","Backup","Firewall","Delete"],"correctAnswer":0,"explanation":"Ransomware demands payment."},
+{"section":"SEC","difficulty":"Hard","question":"What is zero trust?","choices":["Verify all access","Trust all","Encrypt only","Backup"],"correctAnswer":0,"explanation":"Zero trust verifies everything."},
+{"section":"SEC","difficulty":"Hard","question":"What is intrusion detection?","choices":["Detect attacks","Encrypt","Backup","Delete"],"correctAnswer":0,"explanation":"IDS detects threats."},
+{"section":"SEC","difficulty":"Hard","question":"What is least privilege?","choices":["Minimum access","Full access","Backup","Encryption"],"correctAnswer":0,"explanation":"Limits permissions."},
+
+/* ===== SOC (20) ===== */
+
+{"section":"SOC","difficulty":"Easy","question":"SOC 1 relates to?","choices":["Financial controls","Security","Privacy","Ops"],"correctAnswer":0,"explanation":"SOC 1 = financial reporting."},
+{"section":"SOC","difficulty":"Easy","question":"SOC 2 relates to?","choices":["Trust services","Financial","Tax","Audit"],"correctAnswer":0,"explanation":"SOC 2 = trust criteria."},
+{"section":"SOC","difficulty":"Easy","question":"SOC 3 is?","choices":["Public report","Internal","Audit","Tax"],"correctAnswer":0,"explanation":"SOC 3 is general-use."},
+{"section":"SOC","difficulty":"Medium","question":"Type II report includes?","choices":["Operating effectiveness","Design only","Tax","Audit"],"correctAnswer":0,"explanation":"Type II tests controls."},
+{"section":"SOC","difficulty":"Medium","question":"Who uses SOC reports?","choices":["User entities","Employees","Customers","Managers"],"correctAnswer":0,"explanation":"Users rely on SOC."},
+
+{"section":"SOC","difficulty":"Hard","question":"What is a CUEC?","choices":["User controls","System controls","Audit controls","Backup"],"correctAnswer":0,"explanation":"CUECs required by users."},
+{"section":"SOC","difficulty":"Hard","question":"What is a service org?","choices":["Provides services","Auditor","User","Regulator"],"correctAnswer":0,"explanation":"Service org provides services."},
+{"section":"SOC","difficulty":"Hard","question":"What is a subservice org?","choices":["Supports service org","Auditor","User","Backup"],"correctAnswer":0,"explanation":"Subservice supports service org."}
+]

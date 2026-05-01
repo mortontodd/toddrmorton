@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CPA ISC Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- SECTION SELECT -->
+    <div id="sectionScreen" class="screen">
+        <h1>CPA ISC Exam Simulator</h1>
+        <p>Select a section to begin</p>
+
+        <button onclick="startSection('ISDM')">Information Systems & Data Management</button>
+        <button onclick="startSection('SEC')">Security, Confidentiality & Privacy</button>
+        <button onclick="startSection('SOC')">SOC Engagements</button>
+    </div>
+
+    <!-- QUIZ -->
+    <div id="quizScreen" class="screen hidden">
+
+        <div class="top-bar">
+            <span id="progressText"></span>
+            <span id="difficultyText"></span>
+        </div>
+
+        <div class="progress-bar">
+            <div id="progressFill"></div>
+        </div>
+
+        <h2 id="questionText"></h2>
+
+        <div id="answers"></div>
+
+        <button id="submitBtn" onclick="submitAnswer()">Submit</button>
+        <button id="nextBtn" class="hidden" onclick="nextQuestion()">Next</button>
+
+        <div id="feedback"></div>
+
+    </div>
+
+    <!-- RESULTS -->
+    <div id="resultsScreen" class="screen hidden">
+        <h2>Exam Complete</h2>
+
+        <h1 id="scorePercent"></h1>
+
+        <div id="categoryBreakdown"></div>
+
+        <button onclick="location.reload()">Restart</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
